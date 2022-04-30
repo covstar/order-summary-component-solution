@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    margin: 0;   
+}
+
+/* main design / mobile view */
+
+body{
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: repeat-x;
+    background-color: #e7edfc;
+    font-family: "karla";
+}
+main{
+    padding: 15% 10%;
+}
+
+/* main container */
+
+.major-container{
+    background-color: white;
+    border-radius: 20px;
+}
+
+
+
+/* Second container */
+.second-container{
+    padding: 1% 5% 10%;
+    text-align: center;
+}
+.text-area {
+    padding: 5% 13% 0;
+}
+
+/* Third container */
+
+.third-container{
+   background-color: #f2f5ff;
+   margin: 23px 20px;
+   border-radius: 15px;
+   padding: 15px;
+   display: grid;
+   grid-template-columns: 3rem 1fr 1fr;
+   font-size: 13px;
+}
+
+.first-img{
+    border-radius: 20px 20px 0 0;
+}
+
+.heading{
+    line-height: 1.3;
+    padding-top: .3rem;
+    
+}
+h3{
+    font-size: 0.86rem;
+    color: #12014e;
+    font-weight: 900;
+    
+}
+
+.first-link{
+    font-weight: 900;
+    align-self: center;
+    
+}
+.first-link a{
+    color: #1701d8d3;
+}
+.first-link a:hover{
+    color: #8478f8d3;
+}
+p{
+    line-height: 1.6;
+    color: #77919b;
+    font-weight: lighter;
+}
+h1{
+    padding-bottom: 5%;
+    font-size: 27px;
+    color: #12014e;
+    font-weight: 800;
+}
+
+/* button section */
+
+button{
+    width: 90%;
+     margin: 1% 2% 6%;
+     padding: 1rem 0;
+     background-color: #1800ee;
+     color: white;
+     border-radius: 15px;
+     border-style: none;
+     box-shadow: 1px 21px 20px #d7d4ff;
+     font-size: 1rem;
+     cursor: pointer;
+}
+button:hover{
+    background-color: #887bff;
+}
+
+/* last link */
+
+.second-link a{
+    font-weight: 800;
+    text-decoration: none;
+    color: #77919b;
+    font-size: .89rem;
+}
+.second-link a:hover{
+    color: black;
+}
+
+/* Footer / Atrribution */
+
+.attribution {
+    text-align: center;
+    font-size: .8rem;
+    padding: 0 2rem 3rem;
+    font-weight: 600;
+}
+
+.attribution a {
+    text-decoration: none;
+    font-size: .8rem;
+    color: #1800ee;
+}
+
+
+/* Tablet design */
+
+@media only screen and (min-width: 44rem) {
+    main {
+        padding: 5% 29% 5% 29%;
+    }
+    .third-container {
+        grid-template-columns: 3rem 1fr 1fr;
+    }
+}
+
+
+/* Desktop View */
+
+@media only screen and (min-width: 75rem){
+    main{
+        padding: 5% 36% 5% 36%;
+    }
+   
+}
