@@ -20,6 +20,7 @@ main{
 .major-container{
     background-color: white;
     border-radius: 20px;
+    box-shadow: 1px 21px 20px #d7d4ff;
 }
 
 
