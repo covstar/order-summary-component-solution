@@ -135,7 +135,7 @@ button:hover{
 
 @media only screen and (min-width: 44rem) {
     main {
-        padding: 5% 29% 5% 29%;
+        padding: 15% 29% 5% 29%;
     }
     .third-container {
         grid-template-columns: 3rem 1fr 1fr;
@@ -147,7 +147,7 @@ button:hover{
 
 @media only screen and (min-width: 75rem){
     main{
-        padding: 10% 36% 5% 36%;
+        padding: 15% 36% 5% 36%;
     }
    
 }
