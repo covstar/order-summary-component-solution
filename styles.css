@@ -22,7 +22,9 @@ main{
     border-radius: 20px;
     box-shadow: 1px 21px 20px #e7edfc;
 }
-
+.major-container img{
+    Width: 100%;
+}
 
 
 /* Second container */
